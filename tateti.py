@@ -30,9 +30,7 @@ class TaTeTi():
         while self.valid:
             posicion = input()
             if posicion in self.valid:
-                print('Esta')
                 self.valid.remove(posicion)
-                print(self.valid)
                 return posicion
             else:
                 pass
